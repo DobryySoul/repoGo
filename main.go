@@ -2,7 +2,7 @@ package main
 
 import (
 	"errors"
-	//"fmt"
+	"fmt"
 	"unicode/utf8"
 )
 
@@ -17,5 +17,5 @@ func GetUTFLength(input []byte) (int, error) {
 }
 
 func main() {
-
+	fmt.Println("Привет гитхаб!")
 }
